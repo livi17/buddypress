@@ -1,0 +1,323 @@
+/* Avatar Sizes */
+body #whats-new-avatar img.avatar,.activity-avatar img.avatar,body .forums .topic-poster-avatar img.avatar,body #buddypress .activity-list li.mini .activity-avatar img.avatar { width:80px; height:80px; } /* 64x64 - Activity, Forums */
+body .dir-list .item-avatar img.avatar { width:50px; height:50px; }                         /* 50x50 - Directory List (groups, members, etc.) */
+body #member-list img.avatar,body #friend-list img.avatar { width:40px; height:40px; }      /* 40x40 - Member List (no-s, as in group member listings) */
+body #content #message-threads .thread-avatar img.avatar { width:36px; height:36px; }       /* 36x36 - Message threads */
+body .activity .activity-comments img.avatar { width:34px; height:34px; }                   /* 34x34 - Activity Reply (comment) */
+body .forums .forum .topic-last-poster-avatar img.avatar { width:30px; height:30px; }       /* 30x30 - Forum Reply (last poster) */
+body #item-header-avatar img.avatar { width:125px; height:125px; }                          /* 125x125 - Member Headers */
+body #buddypress ul#groups-list.item-list li .item-avatar img { width:80px; height:80px; }  /* 80x80 - Groups List */
+body #buddypress ul#members-list.item-list li .item-avatar img { width:64px; height:64px; } /* 64x64 - Members List */
+
+/* Navigation */
+body #buddypress div.item-list-tabs { margin-top:40px; clear: both; overflow: hidden; }
+body #buddypress div.item-list-tabs ul { height:auto; line-height:22px; }
+body #buddypress div.item-list-tabs#subnav { margin:2em 0 1em; border:1px solid #E7E8EB; border-radius:6px; padding:2px 12px 3px; background:#f9f9fb; }
+body #buddypress div.item-list-tabs#subnav ul { border-bottom:0; }
+body #buddypress div.item-list-tabs#subnav ul li { margin-right:0; margin-top:1px; }
+html body #buddypress div.item-list-tabs li a,body #buddypress div.item-list-tabs li span { border-width:2px; padding:0 12px; line-height:28px; height:28px; margin-bottom:-2px; }
+body #buddypress div.item-list-tabs#subnav ul li a { border:none; -webkit-border-radius:0; -moz-border-radius:0; border-radius:0; padding:0; background-color:transparent; height:auto; line-height:18px; }
+body #buddypress div.item-list-tabs#subnav ul li a,body #buddypress div.messages-options-nav a { border-left:1px solid #E7E8EB; padding:0 8px; margin:5px 0; }
+body #buddypress div.item-list-tabs#subnav ul li:first-child a { border-left:none; padding-left:0; }
+body #buddypress div.item-list-tabs#subnav li.current a,body #buddypress div.item-list-tabs ul li.selected a { font-weight:700; opacity:1; }
+body #buddypress ul li.loading a { background-image:url(../images/bp-ajax-loader.gif)!important; background-repeat:no-repeat!important; background-position:94% 50%!important; padding-right:32px!important; }
+body #buddypress div.item-list-tabs li a { background-repeat:no-repeat!important; background-position:94% 50%!important; -webkit-transition:all .15s ease-in-out; -moz-transition:all .15s ease-in-out; transition:all .15s ease-in-out; }
+body #buddypress div.item-list-tabs ul li a span { top:-2px; position:relative; }
+body #buddypress div.item-list-tabs ul li {float: left;}
+body #buddypress div.item-list-tabs ul li.last {float: right;}
+
+/* Alerts and Message Boxes */
+body #buddypress div#message { clear:both; margin:2em 0; }
+body #buddypress div#message p,#sitewide-notice p { margin:0; padding:8px 15px; background-image:none; }
+body #buddypress #message.info { margin-bottom:0; }
+body #buddypress div#message.updated { clear:both; }
+body #buddypress div#message.updated p { background-color:#C4F0CE; border-color:#AFD3B9; color:#007513; }
+.delete-group #buddypress #message.info,.delete-group #buddypress #message.info p,.delete-account #buddypress #message.info,.delete-account #buddypress #message.info p { border-color:#CE1111; color:#CE1111; background:#F8E1E1; font-weight:700; text-shadow:0 1px rgba(255,255,255,0.5); }
+.delete-group #group-settings-form label,.delete-account #account-delete-form label { font-size:1.25em; line-height:17px; margin:3em 0 1em; }
+body #buddypress .standard-form#signup_form div div.error { background:#e41717; -moz-border-radius:3px; -webkit-border-radius:3px; border-radius:3px; color:#fff; margin:0 0 10px; padding:6px; width:90%; }
+body #buddypress div.accept,body #buddypress div.reject { float:left; margin-left:10px; }
+body #buddypress ul.button-nav li { float:left; margin:0 10px 10px 0; list-style:none; }
+body #buddypress ul.button-nav li.current a { font-weight:700; }
+#sitewide-notice #message { left:2%; position:fixed; top:1em; width:96%; z-index:9999; background:#C4F0CE; }
+#sitewide-notice #message p a#close-notice { font-weight:700; font-size:80%; text-transform:uppercase; }
+#sitewide-notice.admin-bar-on #message { top:3.3em; }
+#sitewide-notice strong { display:block; margin-bottom:-1em; }
+
+/* Text */
+.buddypress h1.entry-title { margin-bottom:1em; }
+.buddypress h2.entry-title { margin-bottom:.75em; }
+.buddypress h3.entry-title { margin-bottom:.75em; }
+.buddypress h4.entry-title { margin-bottom:.75em; }
+.buddypress h5.entry-title { margin-bottom:.75em; }
+.buddypress h6.entry-title { margin-bottom:.75em; }
+body #buddypress span.highlight { color:#777C81; background-color:#EFF1F4; border:1px solid #E3E5E8; border-color:#C8C9CD #E3E5E8 #EFF1F4; -webkit-border-radius:4px; -moz-border-radius:4px; border-radius:4px; display:inline; font-size:10px; font-weight:700; padding:2px 6px; margin-right:5px; text-transform:uppercase; -webkit-background-clip:padding-box; }
+
+/* Buttons */
+body #buddypress #delete-group-avatar-button a { background:#DB3131; border-color:#B61212; padding:5px 9px; font-weight:700; color:#fff; }
+body #buddypress #delete-group-avatar-button a:hover { background:#EB3131; color:#fff; }
+body #buddypress button,body #buddypress a.button,body #buddypress input[type=submit],body #buddypress input[type=button],body #buddypress input[type=reset],body #buddypress ul.button-nav li a,body #buddypress div.generic-button a,body #buddypress .comment-reply-link { padding-top:.5em; padding-bottom:.5em; border-radius:6px; }
+body #buddypress .generic-button a:link { border-radius:2px; font-size:11px; }
+
+/* Fields */
+#bbpress-forums fieldset.bbp-form input[type="radio"],#bbpress-forums fieldset.bbp-form input[type="checkbox"] { margin-bottom:0; }
+div#buddypress form textarea.wp-editor-area { background:#fff; border:0; }
+
+/* Headers */
+body #buddypress div#item-header img.avatar { margin:10px 25px 19px 10px; }
+body #buddypress div#item-header { margin-bottom:20px; }
+body #buddypress div#item-header div#item-meta { font-size:90%; }
+body #buddypress div#item-header div#item-header-content { float:none; }
+body #buddypress div#item-header div#item-header-content .user-nicename { font-size:14px; }
+
+/* Position title in header */
+.bp-user.buddypress .entry-header h1,.single-item.buddypress .bp_group .entry-header h1 { position:absolute; margin-left:158px; margin-bottom:0; }
+.bp-user.buddypress .entry-header,.single-item.buddypress .bp_group .entry-header { margin-bottom:0; }
+body.bp-user #buddypress div#item-header div#item-header-content,body.single-item .bp_group #buddypress div#item-header div#item-header-content { margin-top:45px; }
+
+/* not on activity */
+.buddypress .bp_activity .entry-header h1 { display:none; }
+body #buddypress div#item-header div#item-actions h3 { font-size:14px; font-weight:400; }
+body #buddypress div#item-header div#item-actions img.avatar { -webkit-box-shadow:0 0 6px rgba(0,0,0,.4); -moz-box-shadow:0 0 6px rgba(0,0,0,.4); box-shadow:0 0 6px rgba(0,0,0,.4); }
+
+/* What's New */
+#buddypress form#whats-new-form { margin-left:100px; position:relative; }
+#buddypress form#whats-new-form #whats-new-avatar { position:absolute; left:-117px; top:-6px; }
+body #buddypress form#whats-new-form textarea { border:1px solid #E9E9E9; }
+body #buddypress form#whats-new-form #whats-new-content,body #buddypress form#whats-new-form p.activity-greeting { margin-left:0; padding-left:0; }
+body #buddypress form#whats-new-form #whats-new-content { padding-bottom:8px; }
+body #buddypress form#whats-new-form p.activity-greeting { font-size:18px; line-height:18px; margin:5px 0 18px; color:#373e44; }
+body #buddypress form#whats-new-form #whats-new-post-in-box { margin:12px 0 0; }
+body #buddypress form#whats-new-form #whats-new-options select { margin-top:0; }
+body #buddypress #item-body form#whats-new-form { margin-left:117px; margin-bottom:40px; margin-top:40px; padding:10px 17px 12px; }
+#buddypress #item-body form#whats-new-form { margin:0; padding:0; }
+#buddypress .home-page form#whats-new-form { border-bottom:none; padding-bottom:0; }
+#buddypress form#whats-new-form #whats-new-avatar { float:left; }
+#buddypress form#whats-new-form #whats-new-content { margin-left:55px; padding:0 0 20px 20px; }
+#buddypress form#whats-new-form p.activity-greeting { line-height:.5em; margin-bottom:15px; margin-left:75px; }
+#buddypress #whats-new-options { overflow:hidden; height:0; }
+body.no-js #buddypress #whats-new-options { height:auto; }
+#buddypress #whats-new:focus { border-color:#96B8D3; outline-color:#96B8D3; -webkit-box-shadow:0 0 5px rgba(0,125,230,.65); -moz-box-shadow:0 0 5px rgba(0,125,230,.65); box-shadow:0 0 5px rgba(0,125,230,.65); }
+#buddypress form#whats-new-form textarea { background:#fff; border:1px inset #ccc; -moz-border-radius:3px; -webkit-border-radius:3px; border-radius:3px; color:#555; font-family:inherit; font-size:90%; height:20px; padding:6px; width:98%; }
+body.no-js #buddypress form#whats-new-form textarea { height:50px; }
+#buddypress form#whats-new-form #whats-new-options select { max-width:200px; margin-top:12px; }
+#buddypress form#whats-new-form #whats-new-submit { float:left; margin-top:6px; margin-right:20px; }
+
+/* Activity */
+body #buddypress #activity-stream { border-top:0; padding-bottom:25px; }
+body #buddypress ul.item-list li { border-bottom:0; padding:12px 0; }
+body #buddypress .activity-list li .activity-content,html body.activity-permalink #buddypress .activity-list li .activity-content { margin-left:117px; }
+body #buddypress .activity-list li.mini { font-size: 85%; }
+body #buddypress .activity-header { margin-right:0; }
+body #buddypress #activity-stream .activity-header p { font-size:12px; font-weight:400; width:100%; text-align:left; }
+body #buddypress #activity-stream .activity-header p a:first-child { text-transform:none; font-size:14px; font-weight:700; margin:3px 3px 3px 0; }
+body #buddypress #activity-stream .activity-header p a:first-child:hover { border:none; color:#d91a54; }
+body #buddypress div.activity-meta { font-size:9px; text-transform:uppercase; }
+body.logged-in #buddypress div.activity-meta { padding-top:.6em; border-top:1px solid #e7e8eb; margin-bottom:-7px; }
+body #buddypress div.activity-meta a.button { font-size:10px; font-weight:700; color:#1f7099; border:0; background:transparent; margin:0; padding-left:0; }
+body #buddypress div.activity-meta a.button:hover { color:#d91a54; }
+body #buddypress a.bp-primary-action span { padding:1px 5px; text-shadow:none; }
+body #buddypress div.activity-comments ul li { border-top:0; padding-top:0; }
+body #buddypress div.activity-comments > ul > li:first-child { padding-top:15px; }
+body #buddypress div.activity-comments,html body.activity-permalink #buddypress .activity-list div.activity-comments { margin-left:100px; }
+body #buddypress div.activity-comments form div.ac-reply-avatar img { width:50px; height:50px; border:0; }
+body #buddypress div.activity-comments form.root { padding-right:0; }
+body #buddypress div.activity-comments form .ac-textarea { background:#F9F9FB; border:1px solid #E7E8EB; }
+body #buddypress div.activity-comments .acomment-avatar img.avatar { width:64px; height:64px; margin-top:12px; }
+body #buddypress div.activity-comments div.acomment-content { font-size:100%; min-height:28px; margin-bottom:15px; }
+body.logged-in #buddypress div.activity-comments div.acomment-content { margin-bottom:0; }
+body #buddypress .acomment-options { float:none; margin:0; width:100%; text-align:right; }
+body #buddypress .activity-list .activity-content .activity-header img.avatar { display:none; }
+body #buddypress div.activity-comments div.acomment-meta { font-size:11px; }
+body #buddypress ul#activity-stream li { margin-top:10px; border:none; }
+body #buddypress a.activity-time-since { color:#888; text-decoration:none; float:right; }
+body #buddypress a.activity-time-since:hover { color:#888; text-decoration:none; }
+
+/* Forum - bbPress */
+#buddypress #item-body > #bbpress-forums > h3:first-child { margin-top:30px; }
+body .bbp-pagination { margin-bottom:20px; }
+body #bbpress-forums li.bbp-header,body #bbpress-forums li.bbp-footer { display:none; }
+body #bbpress-forums .bbp-template-notice.info { display:none; }
+body li.bbp-topic-voice-count { display:none; }
+body li.bbp-topic-freshness .bbp-topic-freshness-author { display:none; }
+body #bbpress-forums ul.bbp-topics,body #bbpress-forums ul.bbp-forums { margin:10px 0 20px; padding:0; border:1px solid #e7e8eb; -webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px; }
+body #bbpress-forums ul.bbp-topics,body #bbpress-forums ul.even,body #bbpress-forums ul.odd,body #bbpress-forums ul.bbp-forums { background:#f9f9fb; }
+body #bbpress-forums li.bbp-body ul.topic,body #bbpress-forums li.bbp-body ul.forum { position:relative; list-style-type:none; padding:12px 16px; border-top:1px solid #fff; border-bottom:1px solid #e7e8eb; min-height:80px; }
+body #bbpress-forums p.bbp-topic-meta .bbp-author-avatar img.avatar { position:absolute; left:0; top:0; border:0; width:80px; height:80px; margin:12px 16px; }
+body #bbpress-forums li.bbp-body ul.topic li.bbp-topic-title { margin-left:100px; }
+body #bbpress-forums li.bbp-body ul.topic li.bbp-topic-title .bbp-topic-permalink,body #bbpress-forums li.bbp-body ul.forum li.bbp-forum-info .bbp-forum-title { display:block; font-size:20px; margin:13px 0 7px; padding:0; }
+body #bbpress-forums li.bbp-body ul.topic li.bbp-topic-title .bbp-author-name { margin-left:-.5em; }
+body #bbpress-forums li.bbp-topic-reply-count,body #bbpress-forums li.bbp-topic-freshness { text-shadow:0 1px 0 #fff; width:22%; float:right; text-align:center; }
+body #bbpress-forums li.bbp-topic-reply-count,body #bbpress-forums ul.forum li.bbp-forum-topic-count,body #bbpress-forums ul.forum li.bbp-forum-reply-count { line-height:28px; margin:14px 0 7px; font-size:28px; text-shadow:0 1px 0 #fff; line-height:1; font-weight:800; }
+body #bbpress-forums li.bbp-topic-freshness,body #bbpress-forums ul.forum li.bbp-forum-freshness { margin:2px 0 0; font-weight:400; font-size:9px; }
+body li.bbp-topic-freshness a:link,body li.bbp-topic-freshness a:visited,body li.bbp-topic-freshness a:hover,body #bbpress-forums ul.forum li.bbp-forum-freshness a:link,body #bbpress-forums ul.forum li.bbp-forum-freshness a:visited,body #bbpress-forums ul.forum li.bbp-forum-freshness a:hover { text-transform:uppercase; color:#AAA; }
+body #bbpress-forums fieldset.bbp-form { border:0; padding:10px 0; margin-bottom:10px; }
+body #bbpress-forums fieldset.bbp-form legend { padding:0; margin:0; font-weight:700; font-size:14px; }
+body #buddypress div.bbp-submit-wrapper { float:none; }
+body #buddypress div.bbp-submit-wrapper button { font-size:14px; padding:8px 19px; }
+body #bbpress-forums fieldset.bbp-form input#bbp_topic_title { width:90%; }
+
+/* Forum Replies */
+body #bbpress-forums ul.bbp-replies,body #bbpress-forums div.odd,body #bbpress-forums ul.odd,body #bbpress-forums div.even,body #bbpress-forums ul.even { border:0; background:transparent; padding:0 0 20px; overflow:visible; }
+body #bbpress-forums div.bbp-reply-author { top:-22px; position:relative; }
+#bbpress-forums div.bbp-reply-author img.avatar { margin-top:0; }
+body #bbpress-forums div.bbp-reply-header { margin-left:130px; padding:4px 17px; font-size:11px; background-color:#F9F9FB; border:1px solid #E7E8EB; border-bottom:0; -webkit-border-radius:5px 5px 0 0; -moz-border-radius:5px 5px 0 0; border-radius:5px 5px 0 0; }
+body #bbpress-forums div.bbp-reply-header .bbp-meta { padding:1px 2px 6px; border-bottom:1px solid #E7E8EB; }
+body #bbpress-forums div.bbp-reply-header span.bbp-admin-links a,body #bbpress-forums div.bbp-reply-header a.bbp-reply-permalink { color:#aaa; }
+body #bbpress-forums div.bbp-reply-content { padding-top:10px; padding-bottom:5px; border-top:0; -webkit-border-radius:0 0 5px 5px; -moz-border-radius:0 0 5px 5px; border-radius:0 0 5px 5px; }
+body #bbpress-forums div.bbp-reply-content:before { margin-top:-5px; }
+
+/* Forums Directory */
+#bbp-user-topics-started .entry-title { margin-bottom:20px; }
+#bbpress-forums div.bbp-search-form { margin-bottom:20px; }
+div.bbp-breadcrumb,div.bbp-topic-tags { margin-top:7px; }
+body #bbpress-forums .bbp-forums li.bbp-header { display:block; background-color:#F9F9FB; border-top:1px solid #fff; border-bottom:1px solid #e7e8eb; }
+body #bbpress-forums .bbp-forums li.bbp-body ul.forum li.bbp-forum-info .bbp-forum-title { margin-top:0; }
+body #bbpress-forums ul.forum li.bbp-forum-topic-count,body #bbpress-forums ul.forum li.bbp-forum-reply-count { margin-top:0; }
+body #bbpress-forums ul.forum li.bbp-forum-freshness { margin-top:8px; }
+body #bbpress-forums .bbp-forums p.bbp-topic-meta { margin:15px 0 0; }
+body #bbpress-forums .bbp-forums p.bbp-topic-meta .bbp-author-avatar img.avatar { position:relative; width:25px; height:25px; border-radius:15px; margin:0 5px 0 0; vertical-align:middle; }
+
+/* Generic and Structure */
+body #buddypress table.profile-fields { margin-bottom:20px; }
+body #buddypress table.profile-fields:last-child { margin-bottom:0; }
+body #buddypress table.profile-fields p { margin:0; }
+body #buddypress table.profile-fields p:last-child { margin-top:0; }
+body #buddypress table tr td,body #buddypress table tr th { padding:8px; vertical-align:middle; }
+body #buddypress table tr td.label { font-weight:700; width:15%; }
+body #buddypress table tr.alt td { background:#fff; }
+body a.bp-title-button:link,body a.bp-title-button:visited { padding:1px 5px 2px; color:#fff; border:0; background:transparent; background-color:#1f7099; -webkit-border-radius:2px; -moz-border-radius:2px; border-radius:2px; font-size:12px; vertical-align:28%; margin-left:16px; }
+body a.bp-title-button:hover,body a.bp-title-button:active { background-color:#d91a54; }
+body #buddypress div.dir-search { float:right; position:relative; top:-30px; }
+body #buddypress div.dir-search input[type=text] { width:200px; padding:4px; font-size:.9em; }
+body #buddypress .dir-form { clear:both; }
+body #buddypress ul.item-list li div.item-title,body #buddypress ul.item-list li h4 { font-size:18px; }
+body #buddypress ul.item-list li div.item-title a,body #buddypress ul.item-list li h4 a { color:#373e44; }
+body #buddypress ul.item-list li div.item-title a:hover,body #buddypress ul.item-list li h4 a:hover { border-bottom:1px dotted #373e44; }
+body #buddypress .item-list .item-meta { margin-top:-5px; }
+body #buddypress ul.item-list li div.item-desc { margin:.8em 0 0; padding-left:104px; }
+body #buddypress ul.item-list li { border-bottom:1px solid #eee; padding:10px 0 15px; margin:0; position:relative; list-style:none; }
+body #buddypress ul.item-list li div.meta { font-size:11px; }
+body #buddypress ul.item-list li div.action { position:absolute; top:10px; right:8px; text-align:right; }
+body #buddypress ul#members-list.item-list li .item-title { margin-top:10px; }
+body #buddypress span.activity { text-transform:uppercase; font-size:10px; color:#999; font-weight:700; }
+
+/* Pagination */
+body #buddypress div.pagination { background:transparent; border:none; color:#888; font-size:11px; margin:0; position:relative; display:block; float:left; width:100%; padding:10px 0; }
+body #buddypress div.pagination .pag-count { float:left; margin-left:10px; }
+body #buddypress div.pagination .pagination-links { float:right; margin-right:10px; width:auto; }
+body #buddypress div.pagination .pagination-links span,body #buddypress div.pagination .pagination-links a { font-size:11px; padding:0 5px; }
+body #buddypress div.pagination .pagination-links a:hover { font-weight:700; }
+body #buddypress noscript div.pagination { margin-bottom:15px; }
+body #buddypress #nav-above { display:none; }
+body #buddypress .paged #nav-above { display:block; }
+
+/* Forms */
+body #buddypress .standard-form select { padding:3px; }
+body #buddypress .standard-form input[type=password] { margin-bottom:5px; }
+body #buddypress .standard-form label,body #buddypress .standard-form span.label { display:block; font-weight:400; margin:15px 0 5px; }
+body #buddypress .standard-form div.checkbox label,body #buddypress .standard-form div.radio label { color:#888; font-size:100%; font-weight:400; margin:5px 0 0; }
+body #buddypress .standard-form#sidebar-login-form label { margin-top:5px; }
+body #buddypress .standard-form input[type=text] { width:75%; }
+body #buddypress .standard-form#sidebar-login-form input[type=text],body #buddypress .standard-form#sidebar-login-form input[type=password] { padding:4px; width:95%; }
+body #buddypress .standard-form #basic-details-section input[type=password],body #buddypress .standard-form #blog-details-section input#signup_blog_url { width:35%; }
+body #buddypress .standard-form#signup_form input[type=text],body #buddypress .standard-form#signup_form textarea,body #buddypress .form-allowed-tags,body #buddypress #commentform input[type=text],body #buddypress #commentform textarea { width:90%; }
+body #buddypress .standard-form#signup_form div.submit { float:right; }
+body #buddypress div#signup-avatar img { margin:0 15px 10px 0; }
+body #buddypress .standard-form textarea { width:75%; height:120px; }
+body #buddypress .standard-form textarea#message_content { height:200px; }
+body #buddypress .standard-form#send-reply textarea { width:97.5%; }
+body #buddypress .standard-form p.description { color:#888; font-size:80%; margin:5px 0; }
+body #buddypress .standard-form div.submit { clear:both; padding:15px 0 0; }
+body #buddypress .standard-form p.submit { margin-bottom:0; padding:15px 0 0; }
+body #buddypress .standard-form div.submit input { margin-right:15px; }
+body #buddypress .standard-form div.radio ul { margin:10px 0 15px 38px; list-style:disc; }
+body #buddypress .standard-form div.radio ul li { margin-bottom:5px; }
+body #buddypress .standard-form a.clear-value { display:block; margin-top:5px; outline:none; }
+body #buddypress .standard-form #basic-details-section,body #buddypress .standard-form #blog-details-section,body #buddypress .standard-form #profile-details-section { float:left; width:48%; }
+body #buddypress .standard-form #profile-details-section { float:right; }
+body #buddypress .standard-form #blog-details-section { clear:left; }
+body #buddypress .standard-form input:focus,body #buddypress .standard-form textarea:focus,body #buddypress .standard-form select:focus { background:#fafafa; color:#555; }
+body #buddypress form#send-invite-form { margin-top:20px; }
+body #buddypress div#invite-list { background:#f5f5f5; height:400px; margin:0 0 10px; overflow:auto; padding:5px; width:160px; }
+
+/* Lists / Directory */
+body #buddypress ul.item-list li div.item-desc { font-size:100%; width:70%; }
+body #buddypress ul.item-list li div.item-title { font-size:18px; }
+body #buddypress ul.item-list li div.meta { font-size:11px; }
+body #buddypress ul.item-list { border-top:1px solid #eaeaea; border-bottom:1px solid #eaeaea; }
+
+/* Member List */
+body #buddypress #member-list li h5 { margin:5px 0 0; }
+body #buddypress #members-list .item-meta { margin-left:89px; margin-top:5px; margin-bottom:5px; }
+body #buddypress ul#members-list li { min-height:54px; }
+
+/* Members */
+body #buddypress ul.item-list li div.item-title span { font-size:12px; }
+body #buddypress ul#admins-list,body #buddypress ul#mods-list,body #buddypress ul#members-list { margin:0 0 20px; }
+body #buddypress ul#admins-list li,body #buddypress ul#mods-list li,body #buddypress ul#members-list li { overflow:hidden; list-style:none; min-height:0; padding:5px 0 0; }
+body #buddypress ul.item-list li h5 { line-height:40px; margin:0; padding:0; }
+body #buddypress ul.item-list li h5 span.small { float:right; font-size:80%; font-weight:400; }
+body #buddypress ul.item-list li h5 span.small a { border-radius:0; border-left:2px solid #ccc; padding:0 0 0 3px; }
+
+/* Messages */
+body #buddypress div.message-search { margin:0 0 0 20px; margin-top:-29px; }
+body #buddypress div#message-thread div.message-metadata { line-height:45px; }
+body #buddypress div#message-thread img.avatar { margin:8px; -webkit-box-shadow:0 0 6px rgba(0,0,0,.4); -moz-box-shadow:0 0 6px rgba(0,0,0,.4); box-shadow:0 0 6px rgba(0,0,0,.4); }
+
+/* User Profile */
+body #buddypress #profile-edit-form ul.button-nav { margin-left:0; }
+body #buddypress div.profile h4 { clear:both; padding-top:2em; margin-bottom:1em; }
+body #buddypress table tr td.label { padding-left:0; width:20%; }
+body #buddypress table tr td.label,body #buddypress table tr td.data { border-right:0; border-bottom:1px solid #F9F9FB; vertical-align:top; }
+
+/* Widgets */
+body .widget.buddypress span.activity { display:inline-block; font-size:100%; opacity:.8; padding:0; }
+body .widget.buddypress ul.item-list img.avatar { height:50px; margin-right:10px; width:50px; -webkit-border-radius:25px; -moz-border-radius:25px; border-radius:25px; overflow:hidden; }
+body .widget.buddypress div.avatar-block { overflow:hidden; }
+body .widget.buddypress div.item-avatar img.avatar { float:left; margin:0 10px 0 0; }
+body .widget.buddypress div.item { margin:0; }
+body .widget.buddypress div.item-options { font-size:11px; font-weight:700; }
+body .widget.buddypress ul.item-list { margin:16px 0; padding:0; list-style:none; }
+body .widget.buddypress ul.item-list li { clear:both; margin:0; padding:0 0 13px; }
+body .widget.buddypress ul.item-list li a { font-weight:700; padding:5px 0 0; }
+body .widget.buddypress div.item-title { margin-left:65px; }
+body .widget.buddypress div.item-meta,.widget.buddypress div.item-content { font-size:11px; padding-top:3px; margin-left:65px; }
+body .widget.buddypress ul#members-list { margin-top:0; }
+body .widget.buddypress div#members-list-options { display:none; }
+body .widget.buddypress ul#members-list div.item { display:none; }
+body .widget.buddypress ul#members-list li { border:none; display:inline; }
+body .widget.buddypress ul#members-list li .item-avatar { height:0; }
+
+/* Tabs */
+body #buddypress div.item-list-tabs ul li a span { background:#eee; border-radius:50%; border:1px solid #ccc; color:#444; display:inline; font-size:70%; margin-left:2px; padding:3px 6px; text-align:center; vertical-align:middle; }
+body #buddypress div.item-list-tabs ul li { margin-top: 4px !important }
+
+/* Private Messaging */
+body #buddypress table#message-threads { clear:both; margin:0 0 20px; width:auto; border-top:1px solid #eee; }
+body #buddypress div#message-thread p#message-recipients { margin:10px 0 20px; }
+body #buddypress div#message-thread p#message-recipients span.highlight { margin:0; padding:0; border:0; background:transparent; }
+body #buddypress div#message-thread p#message-recipients a.button.confirm { padding-left:10px; font-size:80%; }
+body #buddypress table#message-threads tbody tr { padding-top:100px; border-bottom:1px solid #eee; }
+body #buddypress table#message-threads tbody tr td.thread-count { display:none; }
+body #buddypress table#message-threads tbody tr td.thread-avatar { width:1%; }
+body #buddypress table#message-threads tbody tr td.thread-from { width:25%; }
+body #buddypress table#message-threads tbody tr td.thread-info { width:57%; }
+body #buddypress table#message-threads tbody tr td.thread-options { width:17%; }
+body #buddypress table#message-threads img.avatar { margin-top:10px; max-width:32px; max-height:32px; }
+body #buddypress div#message-thread img.avatar { margin:8px; -webkit-box-shadow:0 0 6px rgba(0,0,0,.4); -moz-box-shadow:0 0 6px rgba(0,0,0,.4); box-shadow:0 0 6px rgba(0,0,0,.4); }
+body #buddypress div.messages-options-nav { background:#transparent; font-size:80%; margin:0; padding:5px 15px; text-align:right; }
+body #buddypress table tr td.thread-info p.thread-excerpt { color:#888; margin-top:3px; }
+body #buddypress table#message-threads tbody tr td.thread-options input[type="checkbox"] { vertical-align:0; }
+body #buddypress .messages .messages-options-nav select#message-type-select { vertical-align:0; }
+body #buddypress div.message-search { margin:0 0 0 20px; margin-top:-29px; }
+body #buddypress div#message-thread div.message-box { margin:0 0 20px; padding:0; border:1px solid #E7E8EB; -webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px; }
+body #buddypress div#message-thread div.message-metadata { border-top:1px solid #fff; border-bottom:1px solid #E7E8EB; background:#F9F9FB; padding:2px 16px 3px 8px; -webkit-border-radius:4px 4px 0 0; -moz-border-radius:4px 4px 0 0; border-radius:4px 4px 0 0; line-height:45px; overflow:hidden; }
+body #buddypress div#message-thread div.message-metadata span.activity { float:right; }
+body #buddypress div#message-thread div.message-content { margin:20px; }
+body #buddypress form#send-reply.standard-form div.message-box div.message-metadata { border:none; background:transparent; padding:2px 8px 0x; -webkit-border-radius:4px 4px 0 0; -moz-border-radius:4px 4px 0 0; border-radius:4px 4px 0 0; line-height:45px; overflow:hidden; }
+body #buddypress form#send-reply.standard-form div.message-box div.message-content { margin-top:0; }
+body #buddypress form#send_message_form.standard-form ul li.friend-tab { border:none; background:transparent; }
+body #buddypress form#send_message_form.standard-form ul li.friend-tab span img.avatar { margin-right:10px; }
+body #buddypress form#send_message_form.standard-form ul li.friend-tab span a { line-height:200%; }
+body #buddypress form#send_message_form.standard-form input[type="checkbox"] { vertical-align:0; }
+body #buddypress table#message-threads tr.unread td { background:#F5FAFE; border-top:1px solid #eee; border-bottom:1px solid #eee; font-weight:700; }
