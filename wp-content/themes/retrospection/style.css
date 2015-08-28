@@ -1,6 +1,6 @@
 /*
 Theme Name: Retrospection
-Theme URI: 
+Theme URI: none
 Author: Michael LaRiviere
 Author URI: http://www.michaellariviere.com;
 Description: Theme for the website Retrospection.
@@ -47,6 +47,7 @@ Text Domain: twentyfifteen
  *    16.6 - Desktop Large
  *    16.7 - Desktop X-Large
  * 17.0 - Print
+ * 18.0 Google Maps
  */
 
 
@@ -488,6 +489,10 @@ textarea {
 
 button,
 input {
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
 	line-height: normal;
 }
 
@@ -876,6 +881,14 @@ a:focus {
 
 .social-navigation a[href$="/feed/"]:before {
 	content: "\f413";
+}
+
+.social-navigation a[href*="path.com"]:before {
+	content: "\f219";
+}
+
+.social-navigation a[href*="skype.com"]:before {
+	content: "\f220";
 }
 
 .secondary-toggle {
@@ -4313,8 +4326,8 @@ p > video {
 	.site-header {
 		background-color: transparent;
 		border-bottom: 0;
-		margin: 20% 0;
-		padding: 0 20%;
+		margin: 2% 0;
+		padding: 0 2%;
 	}
 
 	.site-branding {
@@ -5990,3 +6003,16 @@ p > video {
 		padding: 0;
 	}
 }
+
+/**
+ * 18.0 Google Maps
+ */
+html, body { 
+	height: 100%; 
+	margin: 0; 
+	padding: 0; 
+}
+ #map { 
+ 	height: 400px;
+ 	z-index: 1000; 
+ }
