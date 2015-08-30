@@ -6016,3 +6016,13 @@ html, body {
  	height: 400px;
  	z-index: 1000; 
  }
+
+ #login-form{
+ 	position:absolute;
+ 	right:20px;
+ 	top:40px;
+ }
+#login-form {
+	font-size: .7em;
+	font-family: Arial;
+}

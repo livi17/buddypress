@@ -22,24 +22,40 @@
 </head>
 
 <body <?php body_class(); ?>>
+	
 	<header id="masthead" class="site-header" role="banner">
-			<div class="site-branding">
-				<?php
-					if ( is_front_page() && is_home() ) : ?>
-						<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-					<?php else : ?>
-						<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-					<?php endif;
+		<div class="site-branding">
+			<?php
+			if ( is_front_page() && is_home() ) : ?>
+			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+		<?php else : ?>
+		<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
+		<?php endif;
 
-					$description = get_bloginfo( 'description', 'display' );
-					if ( $description || is_customize_preview() ) : ?>
-						<p class="site-description"><?php echo $description; ?></p>
-					<?php endif;
-				?>
-				<button class="secondary-toggle"><?php _e( 'Menu and widgets', 'twentyfifteen' ); ?></button>
-			</div><!-- .site-branding -->
-		</header><!-- .site-header -->
-	<div id="map"></div>
+		$description = get_bloginfo( 'description', 'display' );
+		if ( $description || is_customize_preview() ) : ?>
+		<p class="site-description"><?php echo $description; ?></p>
+		<?php endif;
+		?>
+		<button class="secondary-toggle"><?php _e( 'Menu and widgets', 'twentyfifteen' ); ?></button>
+	</div><!-- .site-branding -->
+
+	<!-- Login Form Begin -->
+	<?php if (!is_user_logged_in()){ ?>
+	<div id="login-form"><!--create new id on css just to make it easy to order things-->
+		<?php wp_loginout(); ?>
+	</div>
+	<?php } else { ?>
+	<div id="login-form">
+		<?php wp_register('<p>', '</P>'); ?>
+		<a href="<?php echo wp_logout_url( home_url() ); ?>">Logout</a>
+	</div>
+	<?php }?>
+	<!--Login Form End-->
+
+
+</header><!-- .site-header -->
+<div id="map"></div>
 <div id="page" class="hfeed site">
 	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'twentyfifteen' ); ?></a>
 
